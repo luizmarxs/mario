@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(abertura.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding: 10px;
+    }
+
+.botao img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.botao:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000;
+}
